@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: MediumAquamarine;
+  flex-grow: 1;
+  margin-right: auto;
+}
+
+.link {
+  color: black;
+}
+
+nav {
+  display: inline-block;
+}
+
+ul ol {
+  display: inline;
+}
+
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
