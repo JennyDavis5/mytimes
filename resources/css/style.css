@@ -5,20 +5,16 @@
 
 .logo {
   color: MediumAquamarine;
-  flex-grow: 1;
-  margin-right: auto;
+  display: inline-flex;
 }
 
-.link {
-  color: black;
-}
-
-nav {
+.topnav {
+  display: flex;
   display: inline-block;
 }
 
-ul ol {
-  display: inline;
+.link{
+  color: black;
 }
 
 header {
