@@ -1,3 +1,13 @@
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+div {
+  border: 1px solid black;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -23,12 +33,22 @@
   padding-right: 20px;
 }
 
-header {
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
+.main.container {
+  display: flex;
+  justify-content: space-between;
 }
 
-div {
-  border: 1px solid black;
+.column.large {
+  width: 630px;
+  flex-direction: column;
+}
+
+.column.medium {
+  width: 300px;
+  flex-direction: column;
+}
+
+.column.medium {
+  width: 240px;
+  flex-direction: column;
 }
