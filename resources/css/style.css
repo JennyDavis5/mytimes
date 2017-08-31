@@ -41,11 +41,53 @@ div {
 .column.large {
   width: 630px;
   flex-direction: column;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.story1header {
+  background-image: url(../images/main-story.png);
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.story3 {
+  background-image: url(../images/fall-season.png);
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.story5 {
+  background-image: url(../images/hipster-cameraman.png);
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 .column.medium {
   width: 300px;
   flex-direction: column;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.midstory2 {
+  background-image: url(../images/cat-ceo.png);
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 .column.small {
