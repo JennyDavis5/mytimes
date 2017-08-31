@@ -1,15 +1,10 @@
 header {
+  display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-}
-
-div {
-  border: 1px solid black;
-}
-
-.container {
-  display: flex;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
   justify-content: space-between;
 }
 
@@ -17,18 +12,20 @@ div {
   color: MediumAquamarine;
   display: flex;
   align-items: center;
+  margin-left: 30px;
 }
 
-.container .logo span{
+.logo span{
   padding-left: 15px;
 }
 
 .topnav {
   display: flex;
   align-items: center;
+  margin: 30px 10px;
 }
 
-.link{
+.topnav a {
   color: black;
   padding-right: 20px;
 }
@@ -93,4 +90,7 @@ div {
 .column.small {
   width: 240px;
   flex-direction: column;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
