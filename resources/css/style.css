@@ -48,7 +48,7 @@ div {
   flex-direction: column;
 }
 
-.column.medium {
+.column.small {
   width: 240px;
   flex-direction: column;
 }
