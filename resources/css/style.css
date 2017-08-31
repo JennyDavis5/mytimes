@@ -5,7 +5,12 @@
 
 .logo {
   color: MediumAquamarine;
-  display: inline-flex;
+  display: flex;
+  align-items: center;
+}
+
+.container .logo span{
+  padding-left: 15px;
 }
 
 .topnav {
