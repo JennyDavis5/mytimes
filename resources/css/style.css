@@ -22,7 +22,7 @@ header {
 .topnav {
   display: flex;
   align-items: center;
-  margin: 30px 10px;
+  margin: 30px 25px;
 }
 
 .topnav a {
@@ -33,6 +33,7 @@ header {
 .main.container {
   display: flex;
   justify-content: space-between;
+  padding: 0 150px;
 }
 
 .column.large {
@@ -41,6 +42,7 @@ header {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  padding-bottom: 40px;
 }
 
 .story1header {
@@ -76,6 +78,7 @@ header {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  padding-top: 40px;
 }
 
 .midstory2 {
@@ -93,4 +96,39 @@ header {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  padding-top: 40px;
+}
+
+footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size:12px;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.sym /* | */{
+  padding-left: 20px;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.bottomnav a {
+  color: black;
+  padding-left: 20px;
+}
+
+.p {
+  padding-top: 20px;
 }
