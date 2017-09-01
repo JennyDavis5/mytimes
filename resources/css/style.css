@@ -42,7 +42,7 @@ header {
   font-family: Georgia;
   font-size: 17px;
   color: black;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .story1header {
@@ -54,26 +54,56 @@ header {
   font-weight: bold;
   font-size: 40px;
   color: white;
+  margin-bottom: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.story2 {
+  width: 310px;
+  margin-bottom: 50px;
 }
 
 .story3 {
   background-image: url(../images/fall-season.png);
+  background-repeat: no-repeat;
+  height: 300px;
+  align-items: center;
   display: flex;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
   text-align: center;
+  width: 300px;
+}
+
+.column3 {
+  float:left;
+  margin-right: 10px;
+}
+
+.column4 {
+  float: right;
+}
+
+.story4{
+  width: 310px;
+  margin-bottom: 50px;
 }
 
 .story5 {
   background-image: url(../images/hipster-cameraman.png);
+  background-repeat: no-repeat;
+  height: 300px;
+  align-items: center;
   display: flex;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
   text-align: center;
+  width: 300px;
 }
 
 .column.medium {
@@ -85,8 +115,14 @@ header {
   padding-top: 20px;
 }
 
+.midstory1 {
+  margin-bottom: 20px;
+}
+
 .midstory2 {
   background-image: url(../images/cat-ceo.png);
+  background-repeat: no-repeat;
+  align-items: center;
   display: flex;
   font-family: Georgia;
   font-weight: bold;
@@ -103,6 +139,7 @@ header {
   font-size: 17px;
   color: black;
   padding-top: 40px;
+  margin-left: -40px;
 }
 
 .rightstory2 h2 {
