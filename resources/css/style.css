@@ -33,7 +33,7 @@ header {
 .main.container {
   display: flex;
   justify-content: space-between;
-  padding: 0 150px;
+  margin: 0px 150px;
 }
 
 .column.large {
@@ -43,6 +43,7 @@ header {
   font-size: 17px;
   color: black;
   padding-bottom: 40px;
+
 }
 
 .story1header {
@@ -61,6 +62,7 @@ header {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
 }
 
 .story5 {
@@ -70,6 +72,7 @@ header {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
 }
 
 .column.medium {
@@ -88,6 +91,7 @@ header {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
 }
 
 .column.small {
@@ -99,14 +103,28 @@ header {
   padding-top: 40px;
 }
 
+.rightstory2 h2 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.rightstory2 li {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
 footer {
   background-color: MediumAquamarine;
   margin: auto;
   font-family: Verdana;
   font-size:12px;
   padding: 100px;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .title {
@@ -117,18 +135,26 @@ footer {
 }
 
 .sym /* | */{
-  padding-left: 20px;
+  padding-left: 25px;
   font-family: Georgia;
   font-size: 16px;
   font-weight: bold;
   color: white;
 }
 
+.title, .sym {
+  display: inline-flex;
+}
+
+.title, .bottomnav {
+  display: inline-flex;
+}
+
 .bottomnav a {
   color: black;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 .p {
-  padding-top: 20px;
+  padding-top: 10px;
 }
